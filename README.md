@@ -4,6 +4,10 @@
 
 
 
+运行\SpringBoot-StudentManagement\src\main\java\com\kuang\Springboot03WebApplication.java
+
+
+
 可参考下面完整教程
 
 https://blog.csdn.net/weixin_43901865/article/details/116596476
