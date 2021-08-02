@@ -2,6 +2,8 @@
 
 基于SpringBoot前后端不分离的学生管理系统，可以对学生的信息进行增删改查。
 
+数据库Mysql
+
 
 
 运行\SpringBoot-StudentManagement\src\main\java\com\kuang\Springboot03WebApplication.java
