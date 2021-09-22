@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="address" class="com.pojo.Address">
+        <property name="address" value="xian"></property>
+    </bean>
+
+    <bean id="student" class="com.pojo.Student">
+        <property name="name" value="hou"/>
+        <property name="address" ref="address"/>
+
+        <!--数组注入-->
+        <property name="books">
+            <array>
+                <value>三国</value>
+                <value>西游</value>
+                <value>水浒</value>
+            </array>
+        </property>
+
+        <!--list-->
+        <property name="hobbies">
+            <list>
+                <value>eat</value>
+                <value>drink</value>
+                <value>play</value>
+            </list>
+        </property>
+
+        <property name="card">
+            <map>
+                <entry key="1" value="12"/>
+                <entry key="2" value="23"/>
+            </map>
+        </property>
+
+        <property name="game">
+            <set>
+                <value>wangzhe</value>
+                <value>daota</value>
+                <value>lol</value>
+            </set>
+        </property>
+
+        <property name="wife">
+            <null></null>
+        </property>
+
+        <!--properties-->
+        <property name="infor">
+            <props>
+                <prop key="id">20200405</prop>
+                <prop key="name">hdk</prop>
+            </props>
+        </property>
+    </bean>
+
+</beans>
