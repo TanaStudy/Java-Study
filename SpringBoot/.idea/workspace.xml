@@ -47,7 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Java/mall/初级/gulimall" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -74,6 +74,7 @@
       <workItem from="1634458951468" duration="1107000" />
       <workItem from="1634526372184" duration="11000" />
       <workItem from="1634636132033" duration="157000" />
+      <workItem from="1634722209191" duration="528000" />
     </task>
     <task id="LOCAL-00001" summary="SpringBoot">
       <created>1633749409625</created>
@@ -194,7 +195,21 @@
       <option name="project" value="LOCAL" />
       <updated>1634636205463</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="helloworld">
+      <created>1634722235252</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1634722235252</updated>
+    </task>
+    <task id="LOCAL-00019" summary="helloworld">
+      <created>1634722250634</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1634722250634</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,13 +238,14 @@
     <MESSAGE value="shiro" />
     <MESSAGE value="test" />
     <MESSAGE value="dubbo + zookeeper" />
-    <option name="LAST_COMMIT_MESSAGE" value="dubbo + zookeeper" />
+    <MESSAGE value="helloworld" />
+    <option name="LAST_COMMIT_MESSAGE" value="helloworld" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="341" y="0" key="CommitChangelistDialog2" timestamp="1634636203801">
+    <state x="341" y="0" key="CommitChangelistDialog2" timestamp="1634722249191">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="341" y="0" key="CommitChangelistDialog2/0.0.1536.824/-1600.0.1600.860@0.0.1536.824" timestamp="1634636203801" />
+    <state x="341" y="0" key="CommitChangelistDialog2/0.0.1536.824/-1600.0.1600.860@0.0.1536.824" timestamp="1634722249191" />
     <state x="446" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1634029419837" />
     <state x="558" y="94" key="CommitChangelistDialog2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1634458985765" />
     <state x="592" y="218" key="FileChooserDialogImpl" timestamp="1634636289055">
@@ -238,10 +254,10 @@
     <state x="592" y="218" key="FileChooserDialogImpl/0.0.1536.824/-1600.0.1600.860@0.0.1536.824" timestamp="1634636289055" />
     <state x="592" y="218" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1633936903472" />
     <state x="740" y="275" key="FileChooserDialogImpl/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1633782222187" />
-    <state x="442" y="200" key="Vcs.Push.Dialog.v2" timestamp="1634636210218">
+    <state x="442" y="200" key="Vcs.Push.Dialog.v2" timestamp="1634722270347">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1600.0.1600.860@0.0.1536.824" timestamp="1634636210218" />
+    <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1600.0.1600.860@0.0.1536.824" timestamp="1634722270347" />
     <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1634029427256" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1634458994557" />
     <state x="573" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1634029439240">
