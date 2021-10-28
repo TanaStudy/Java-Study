@@ -1,4 +1,4 @@
-# 1、README/springboot简介
+# 1、SpringBoot简介
 
 ## 回顾什么是Spring
 
@@ -176,7 +176,7 @@ Spring Initializr：https://start.spring.io/
 
 1、在主程序的同级目录下，新建一个controller包，一定要在同级目录下，否则识别不到
 
-![1595396526609](README/springboot简介.assets/1595396526609.png)
+![1595396526609](SpringBoot课堂笔记/springboot简介.assets/1595396526609.png)
 
 2、在包中新建一个HelloController类
 
@@ -194,7 +194,7 @@ public class HelloController {
 
 3、编写完毕后，从主程序启动项目，浏览器发起请求，看页面返回；控制台输出了 Tomcat 访问的端口号！
 
-![1595396173505](README/springboot简介.assets/1595396173505.png)
+![1595396173505](SpringBoot课堂笔记/springboot简介.assets/1595396173505.png)
 
 
 
@@ -206,7 +206,7 @@ public class HelloController {
 
 - 如果打包成功，则会在target目录下生成一个 jar 包
 
-  ![1595397063721](README/springboot简介.assets/1595397063721.png)
+  ![1595397063721](SpringBoot课堂笔记/springboot简介.assets/1595397063721.png)
 
 - 如果遇到以上②的错误，可以配置打包时跳过项目运行测试用例
 
@@ -228,11 +228,11 @@ public class HelloController {
 
 - 打成了jar包后，就可以在任何地方运行了！OK
 
-  ![1595397745294](README/springboot简介.assets/1595397745294.png)
+  ![1595397745294](SpringBoot课堂笔记/springboot简介.assets/1595397745294.png)
 
   浏览器运行结果（上图第⑤步）：
 
-  ![1595396173505](README/springboot简介.assets/1595396173505.png)
+  ![1595396173505](SpringBoot课堂笔记/springboot简介.assets/1595396173505.png)
 
 
 
@@ -251,6 +251,11 @@ public class HelloController {
 
    图案可以到：https://www.bootschool.net/ascii 这个网站生成，然后拷贝到文件中即可！
 
-		![1595409428560](SpringBoot01：Hello,World！.assets/1595409428560.png)
+​		![1595409428560](SpringBoot课堂笔记/SpringBoot01：Hello,World！.assets/1595409428560.png)
 
 **SpringBoot这么简单的东西背后一定有故事，我们之后去进行一波源码分析！**
+
+
+
+**更多笔记见“SpringBoot课堂笔记”文件夹**
+
