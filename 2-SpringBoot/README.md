@@ -253,9 +253,9 @@ public class HelloController {
 
 ​		![1595409428560](SpringBoot课堂笔记/SpringBoot01：Hello,World！.assets/1595409428560.png)
 
-**SpringBoot这么简单的东西背后一定有故事，我们之后去进行一波源码分析！**
+SpringBoot这么简单的东西背后一定有故事，我们之后去进行一波源码分析！
 
 
 
-**更多笔记见“SpringBoot课堂笔记”文件夹**
+**之后的笔记在“SpringBoot课堂笔记”文件夹中。**
 
