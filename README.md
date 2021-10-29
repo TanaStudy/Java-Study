@@ -10,7 +10,7 @@ Java学习过程中看的一些视频和代码笔记。
 
 # 3. SpringBootWeb
 
-**Spring Boot开发简单网页（员工管理系统）**
+Spring Boot 开发简单网页（员工管理系统）
 
 视频地址：[【狂神说Java】SpringBoot开发简单的网站](https://www.bilibili.com/video/BV19E411v7Ty?spm_id_from=333.999.0.0)
 
