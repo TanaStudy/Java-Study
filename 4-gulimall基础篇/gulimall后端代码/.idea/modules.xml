@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/gulimall.iml" filepath="$PROJECT_DIR$/.idea/gulimall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gulimall-common/gulimall-common.iml" filepath="$PROJECT_DIR$/gulimall-common/gulimall-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gulimall-coupon/gulimall-coupon.iml" filepath="$PROJECT_DIR$/gulimall-coupon/gulimall-coupon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gulimall-gateway/gulimall-gateway.iml" filepath="$PROJECT_DIR$/gulimall-gateway/gulimall-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gulimall-member/gulimall-member.iml" filepath="$PROJECT_DIR$/gulimall-member/gulimall-member.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gulimall-order/gulimall-order.iml" filepath="$PROJECT_DIR$/gulimall-order/gulimall-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gulimall-product/gulimall-product.iml" filepath="$PROJECT_DIR$/gulimall-product/gulimall-product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gulimall-search/gulimall-search.iml" filepath="$PROJECT_DIR$/gulimall-search/gulimall-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gulimall-third-part/gulimall-third-part.iml" filepath="$PROJECT_DIR$/gulimall-third-part/gulimall-third-part.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gulimall-ware/gulimall-ware.iml" filepath="$PROJECT_DIR$/gulimall-ware/gulimall-ware.iml" />
+      <module fileurl="file://$PROJECT_DIR$/renren-fast/renren-fast.iml" filepath="$PROJECT_DIR$/renren-fast/renren-fast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/renren-generator/renren-generator.iml" filepath="$PROJECT_DIR$/renren-generator/renren-generator.iml" />
+    </modules>
+  </component>
+</project>

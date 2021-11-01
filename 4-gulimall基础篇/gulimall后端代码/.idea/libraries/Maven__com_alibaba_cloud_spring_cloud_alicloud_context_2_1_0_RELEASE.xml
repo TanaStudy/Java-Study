@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.alibaba.cloud:spring-cloud-alicloud-context:2.1.0.RELEASE">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../Maven/apache-maven-3.6.3-bin/apache-maven-3.6.3/maven-repo/com/alibaba/cloud/spring-cloud-alicloud-context/2.1.0.RELEASE/spring-cloud-alicloud-context-2.1.0.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../../../Maven/apache-maven-3.6.3-bin/apache-maven-3.6.3/maven-repo/com/alibaba/cloud/spring-cloud-alicloud-context/2.1.0.RELEASE/spring-cloud-alicloud-context-2.1.0.RELEASE-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../../Maven/apache-maven-3.6.3-bin/apache-maven-3.6.3/maven-repo/com/alibaba/cloud/spring-cloud-alicloud-context/2.1.0.RELEASE/spring-cloud-alicloud-context-2.1.0.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

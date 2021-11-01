@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.github.jsqlparser:jsqlparser:2.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../Maven/apache-maven-3.6.3-bin/apache-maven-3.6.3/maven-repo/com/github/jsqlparser/jsqlparser/2.1/jsqlparser-2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../../../Maven/apache-maven-3.6.3-bin/apache-maven-3.6.3/maven-repo/com/github/jsqlparser/jsqlparser/2.1/jsqlparser-2.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../../Maven/apache-maven-3.6.3-bin/apache-maven-3.6.3/maven-repo/com/github/jsqlparser/jsqlparser/2.1/jsqlparser-2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
