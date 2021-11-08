@@ -10,7 +10,6 @@
 
   [分布式基础篇](docs/谷粒商城—分布式基础.md)
 
-  [分布式高级篇](docs/谷粒商城—分布式高级.md)
 
 - 接口文档：https://easydoc.xyz/s/78237135/ZUqEdvA4/hKJTcbfd
 
@@ -181,65 +180,4 @@ gulimall
 |     Nginx     | 1.1.6  |              http://nginx.org/en/download.html               |
 
 注意：以上的除了jdk都是采用docker方式进行安装，详细安装步骤可参考百度!!!
-
-### 搭建步骤
-
-> Windows环境部署
-
-- 修改本机的host文件，映射域名端口至Nginx地址
-
-```
-192.168.56.102	gulimall.com
-192.168.56.102	search.gulimall.com
-192.168.56.102  item.gulimall.com
-192.168.56.102  auth.gulimall.com
-192.168.56.102  cart.gulimall.com
-192.168.56.102  order.gulimall.com
-192.168.56.102  member.gulimall.com
-192.168.56.102  seckill.gulimall.com
-以上ip换成自己Linux的ip地址
-```
-
-- 修改Linux中Nginx的配置文件
-
-```shell
-1、在nginx.conf中添加负载均衡的配置   
-upstream gulimall{
-	# 网关的地址
-	server 192.168.56.1:88;
-}    
-2、在gulimall.conf中添加如下配置
-server {
-	# 监听以下域名地址的80端口
-    listen       80;
-    server_name  gulimall.com  *.gulimall.com hjl.mynatapp.cc;
-
-    #charset koi8-r;
-    #access_log  /var/log/nginx/log/host.access.log  main;
-
-    #配置静态资源分离
-    location /static/ {
-        root   /usr/share/nginx/html;
-    }
-
-    #支付异步回调的一个配置
-    location /payed/ {
-        proxy_set_header Host order.gulimall.com;        #不让请求头丢失
-        proxy_pass http://gulimall;
-    }
-
-    location / {
-        #root   /usr/share/nginx/html;
-        #index  index.html index.htm;
-        proxy_set_header Host $host;        #不让请求头丢失
-        proxy_pass http://gulimall;
-    }
-```
-
-或者直接用项目nginx模块替换本机nginx配置目录文件
-
-- 克隆前端项目 `renren-fast-vue` 以 `npm run dev` 方式去运行
-- 克隆整个后端项目 `gulimall` ，并导入 IDEA 中完成编译
-
-
 
