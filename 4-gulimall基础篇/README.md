@@ -13,7 +13,8 @@
 
 - 接口文档：https://easydoc.xyz/s/78237135/ZUqEdvA4/hKJTcbfd
 
-- 视频链接：https://www.bilibili.com/video/BV1np4y1C7Yf?from=search&seid=8989733132604162058
+- 视频链接：[尚硅谷电商教程《谷粒商城》](https://www.bilibili.com/video/BV1np4y1C7Yf?from=search&seid=8989733132604162058)
+
 
 ## 项目介绍
 
