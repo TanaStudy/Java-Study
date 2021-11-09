@@ -18,9 +18,47 @@
 
 ## 项目介绍
 
-谷粒商城项目是一套电商项目，包括前台商城系统以及后台管理系统，基于 SpringCloud、SpringCloud Alibaba、MyBatis Plus实现。前台商城系统包括：用户登录、注册、商品搜索、商品详情、购物车、订单、秒杀活动等模块。后台管理系统包括：系统管理、商品系统、优惠营销、库存系统、订单系统、用户系统、内容管理等七大模块。
+谷粒商城项目是一套电商项目，包括前台商城系统以及后台管理系统，基于 SpringCloud、SpringCloud Alibaba、MyBatis Plus实现。前台商城系统包括：用户登录、注册、商品搜索、商品详情、购物车、订单、秒杀活动等模块。后台管理系统包括：系统管理、商品系统、优惠营销、库存系统、订单系统、用户系统、内容管理等七大模块。分布式基础篇完成后台管理系统。
 
 ## 项目演示
+
+### 后台管理系统
+
+#### 登录
+
+![](https://i.loli.net/2021/02/18/6KVEbFZMrgnUet3.png)
+
+#### 商品系统
+
+**分类管理**
+
+![](https://i.loli.net/2021/02/18/gsTcQRKDEWnUzIY.png)
+
+**品牌管理**
+
+![](https://i.loli.net/2021/02/18/FCKNfMTs9Pt3oVj.png)**平台属性**
+
+![ss](https://i.loli.net/2021/02/18/vCSnt1KjOyghB57.png)
+
+**商品管理**
+
+![](https://i.loli.net/2021/02/18/H6YkoCVOLQyfBN7.png)
+
+**发布商品**
+
+![](https://i.loli.net/2021/02/18/I1WtlCAb9hHUwky.png)
+
+#### 其他系统
+
+<div>
+     <img src="docs/images/Snipaste_2021-02-18_16-58-44.png" style="zoom:40%;" />
+    <img src="docs/images/Snipaste_2021-02-18_16-47-40.png" style="zoom:40%;" />
+    <img src="docs/images/Snipaste_2021-02-18_16-57-06.png" style="zoom:50%;" />
+    <img src="docs/images/Snipaste_2021-02-18_16-57-43.png" style="zoom:50%;" />
+    <img src="docs/images/Snipaste_2021-02-18_16-57-58.png" style="zoom:50%;" />
+</div>
+
+
 
 ### 前台商品系统
 
@@ -58,41 +96,7 @@
 
 
 
-### 后台管理系统
 
-#### 登录
-
-![](https://i.loli.net/2021/02/18/6KVEbFZMrgnUet3.png)
-
-#### 商品系统
-
-**分类管理**
-
-![](https://i.loli.net/2021/02/18/gsTcQRKDEWnUzIY.png)
-
-**品牌管理**
-
-![](https://i.loli.net/2021/02/18/FCKNfMTs9Pt3oVj.png)**平台属性**
-
-![ss](https://i.loli.net/2021/02/18/vCSnt1KjOyghB57.png)
-
-**商品管理**
-
-![](https://i.loli.net/2021/02/18/H6YkoCVOLQyfBN7.png)
-
-**发布商品**
-
-![](https://i.loli.net/2021/02/18/I1WtlCAb9hHUwky.png)
-
-#### 其他系统
-
-<div>
-     <img src="docs/images/Snipaste_2021-02-18_16-58-44.png" style="zoom:40%;" />
-    <img src="docs/images/Snipaste_2021-02-18_16-47-40.png" style="zoom:40%;" />
-    <img src="docs/images/Snipaste_2021-02-18_16-57-06.png" style="zoom:50%;" />
-    <img src="docs/images/Snipaste_2021-02-18_16-57-43.png" style="zoom:50%;" />
-    <img src="docs/images/Snipaste_2021-02-18_16-57-58.png" style="zoom:50%;" />
-</div>
 
 
 
