@@ -257,5 +257,5 @@ SpringBoot这么简单的东西背后一定有故事，我们之后去进行一�
 
 
 
-## SpringBoot系列全部笔记在“SpringBoot课堂笔记”文件夹中。
+## SpringBoot系列全部笔记在“SpringBoot课堂笔记”文件夹中
 
