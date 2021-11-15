@@ -44,14 +44,32 @@ package leetcode.editor.cn;
 // 进阶：你可以想出一个时间复杂度小于 O(n²) 的算法吗？ 
 // Related Topics 数组 哈希表 👍 12567 👎 0
 
+
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+
 public class Q1两数之和{
 	public static void main(String[] args) {
 		Solution solution = new Q1两数之和().new Solution();
+		int[] nums= new int[]{3,2,4};
+		int target = 6;
+		int[] res = solution.twoSum(nums,target);
+		System.out.println(Arrays.toString(res));
 		
 	}
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int[] twoSum(int[] nums, int target) {
+		int[] res = new int[2];
+		Map<Integer,Integer> hashMap = new HashMap<>();
+		for(int i = 0;i < nums.length;i++){
+			if(hashMap.get(target-nums[i])!=null){
+				return new int[]{hashMap.get(target-nums[i]), i};
+			}
+			hashMap.put(nums[i],i);
+		}
+		return res;
 
     }
 }
