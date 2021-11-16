@@ -58,6 +58,7 @@ public class Q3无重复字符的最长子串{
 	}
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
+	//方法二、滑动窗口使用map
     public int lengthOfLongestSubstring(String s) {
 		int res = 0;
 		int left = 0;
@@ -75,7 +76,7 @@ class Solution {
 }
 //leetcode submit region end(Prohibit modification and deletion)
 
-// 方法一：滑动窗口使用set
+// 方法一、滑动窗口使用set
 class Solution1 {
 	public int lengthOfLongestSubstring(String s) {
 		int res = 0;
