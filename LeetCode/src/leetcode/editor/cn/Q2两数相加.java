@@ -13,7 +13,7 @@ package leetcode.editor.cn;
 // 
 //输入：l1 = [2,4,3], l2 = [5,6,4]
 //输出：[7,0,8]
-//解释：342 + 465 = 807.
+//解释：342 + 465 = 807
 // 
 //
 // 示例 2： 
@@ -44,7 +44,19 @@ package leetcode.editor.cn;
 public class Q2两数相加{
 	public static void main(String[] args) {
 		Solution solution = new Q2两数相加().new Solution();
+		ListNode A = new ListNode(2);
+		A.next = new ListNode(6);
+		A.next.next = new ListNode(9);
 		
+		ListNode B = new ListNode(2);
+		B.next = new ListNode(4);
+
+		ListNode ans = solution.addTwoNumbers(A, B);
+		while(ans != null){
+			System.out.println(ans.val);
+			ans = ans.next;
+		}
+
 	}
 //leetcode submit region begin(Prohibit modification and deletion)
 /**
@@ -59,7 +71,32 @@ public class Q2两数相加{
  */
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-
+    	ListNode head = new ListNode();
+    	ListNode cur = head;
+		int carry = 0;
+    	while(l1 != null || l2 !=null){
+    		int v1,v2;
+    		if(l1 == null){
+				v1 = 0;
+			}else {
+    			v1 = l1.val;
+				l1 = l1.next;
+			}
+    		if(l2 == null){
+				v2 = 0;
+			}else{
+    			v2 = l2.val;
+				l2 = l2.next;
+			}
+    		int sum = v1 + v2 + carry;
+			cur.next = new ListNode(sum % 10);
+			cur = cur.next;
+			carry = sum / 10;
+		}
+    	if(carry > 0){
+			cur.next = new ListNode(carry);
+		}
+    	return head.next;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
