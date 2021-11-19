@@ -7,7 +7,7 @@ package leetcode.editor.cn;
 // 
 // 左括号必须用相同类型的右括号闭合。 
 // 左括号必须以正确的顺序闭合。 
-// 
+//
 //
 // 
 //
@@ -55,17 +55,70 @@ package leetcode.editor.cn;
 // 
 // Related Topics 栈 字符串 👍 2766 👎 0
 
+import java.util.*;
+
 public class Q20有效的括号{
 	public static void main(String[] args) {
 		Solution solution = new Q20有效的括号().new Solution();
+		String s = "}";
+		System.out.println(solution.isValid(s));
 		
 	}
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public boolean isValid(String s) {
-
+		int n = s.length();
+		if(n % 2 == 1){
+			return false;
+		}
+		Map<Character,Character> map = new HashMap<Character,Character>(){{
+			put(')','(');
+			put(']','[');
+			put('}','{');
+		}};
+		Stack<Character> stack = new Stack<>();
+		for(int i = 0;i < n; i ++){
+			char c = s.charAt(i);
+			if(!map.containsKey(c)){
+				stack.push(c);
+			}else{
+				if(stack.isEmpty() || stack.peek() != map.get(c)){
+					return false;
+				}
+				stack.pop();
+			}
+		}
+		return stack.isEmpty();
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
+
+class Solution1	{
+	// 方法一、不使用map
+	public boolean isValid(String s) {
+		Stack<Character> stack = new Stack<>();
+		for(int i = 0; i < s.length();i++){
+			char c = s.charAt(i);
+			if(c == '(' || c == '[' || c == '{'){
+				stack.push(c);
+			}else if(c == ')'){
+				if(stack.isEmpty() || stack.pop() != '('){
+					return false;
+				}
+			}else if(c == ']' ){
+				if(stack.isEmpty() || stack.pop() != '['){
+					return false;
+				}
+			}else if(c == '}'){
+				if(stack.isEmpty() || stack.pop() != '{'){
+					return false;
+				}
+			}
+		}
+		return stack.isEmpty();
+
+	}
+}
+
 
 }
