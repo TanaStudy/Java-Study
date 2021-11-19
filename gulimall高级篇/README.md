@@ -178,5 +178,5 @@ gulimall
 |   RabbitMQ    | 3.8.5  |            http://www.rabbitmq.com/download.html             |
 |     Nginx     | 1.1.6  |              http://nginx.org/en/download.html               |
 
-注意：以上的除了jdk都是采用docker方式进行安装，详细安装步骤可参考百度!!!
+注意：以上的除了jdk都是采用docker方式进行安装，详细安装步骤可参考百度！
 
