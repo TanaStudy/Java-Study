@@ -66,6 +66,7 @@ public class Q20有效的括号{
 	}
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
+	// 方法二、使用map
     public boolean isValid(String s) {
 		int n = s.length();
 		if(n % 2 == 1){

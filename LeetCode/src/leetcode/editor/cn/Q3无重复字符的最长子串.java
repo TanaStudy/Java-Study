@@ -76,8 +76,9 @@ class Solution {
 }
 //leetcode submit region end(Prohibit modification and deletion)
 
-// 方法一、滑动窗口使用set
+
 class Solution1 {
+	// 方法一、滑动窗口使用set
 	public int lengthOfLongestSubstring(String s) {
 		int res = 0;
 		int right = -1;
