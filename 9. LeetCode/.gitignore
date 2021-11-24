@@ -2,6 +2,5 @@
 /out
 *.iml
 
-/src/leetcode/editor/cn/doc/
-all.json
-translation.json
+/src/leetcode/editor/cn/doc/all.json
+/src/leetcode/editor/cn/doc/translation.json
