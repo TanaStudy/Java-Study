@@ -56,32 +56,41 @@ package leetcode.editor.cn;
 //时间。你可以使用两个以上的队列。 
 // Related Topics 栈 设计 队列 👍 403 👎 0
 
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Stack;
+
 public class Q225用队列实现栈{
 	public static void main(String[] args) {
-		Solution solution = new Q225用队列实现栈().new Solution();
+        MyStack solution = new Q225用队列实现栈().new MyStack();
+        solution.push(1);
+        solution.push(2);
 		
 	}
 //leetcode submit region begin(Prohibit modification and deletion)
+// 方法二、一个队列实现栈
 class MyStack {
-
+    Queue<Integer> q;
     public MyStack() {
-
+         q = new LinkedList<>();
     }
-    
-    public void push(int x) {
 
+    public void push(int x) {
+       q.add(x);
+       for(int i = 0; i < q.size()-1; i++){
+           q.add(q.poll());
+       }
     }
     
     public int pop() {
-
+       return q.poll();
     }
     
     public int top() {
-
+        return q.peek();
     }
-    
     public boolean empty() {
-
+        return q.isEmpty();
     }
 }
 
@@ -95,4 +104,34 @@ class MyStack {
  */
 //leetcode submit region end(Prohibit modification and deletion)
 
+// 方法一、使用两个队列实现栈
+class MyStack1 {
+    Queue<Integer> s1;
+    Queue<Integer> s2;
+    public MyStack1() {
+        s1 = new LinkedList<>();
+        s2 = new LinkedList<>();
+    }
+
+    public void push(int x) {
+        s1.add(x);
+        while (!s2.isEmpty()){
+            s1.add(s2.poll());
+        }
+        Queue<Integer> temp = s1;
+        s1 = s2;
+        s2 = temp;
+    }
+
+    public int pop() {
+        return s2.poll();
+    }
+
+    public int top() {
+        return s2.peek();
+    }
+    public boolean empty() {
+        return s2.isEmpty();
+    }
+}
 }
