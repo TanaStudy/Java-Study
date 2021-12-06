@@ -35,7 +35,11 @@ Java学习过程中看的一些视频和代码笔记。
 
 # :five: SpringMVC
 
-// TODO
+💻视频：[【狂神说Java】SpringMVC最新教程IDEA版通俗易懂](https://www.bilibili.com/video/BV1aE41167Tu)
+
+📖代码：[SpringMVC代码](https://github.com/TanaStudy/Java-Study/tree/master/5.%20SpringMVC)
+
+✏️笔记：[SpringMVC狂神说的详细笔记](https://blog.csdn.net/xiangminlu/article/details/105680357)
 
 # :six: SpringBoot
 
