@@ -39,7 +39,18 @@ public class Q14最长公共前缀{
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public String longestCommonPrefix(String[] strs) {
-
+    	String common = strs[0];
+    	for(int i = 1;i < strs.length;i++){
+    		String cur = strs[i];
+			int j = 0;
+    		for(;j < common.length() && j < cur.length();j++){
+    			if(common.charAt(j) != cur.charAt(j)){
+    				break;
+				}
+			}
+    		common = common.substring(0,j);
+		}
+    	return common;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
