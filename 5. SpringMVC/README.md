@@ -288,4 +288,4 @@ SpringMVC的原理如下图所示：
 
 
 
-**SpringMVC系列剩余笔记请见：**[springmvc狂神说的详细笔记](https://blog.csdn.net/xiangminlu/article/details/105680357)
+**SpringMVC系列详细笔记请见：**[springmvc狂神说的详细笔记](https://blog.csdn.net/xiangminlu/article/details/105680357)
