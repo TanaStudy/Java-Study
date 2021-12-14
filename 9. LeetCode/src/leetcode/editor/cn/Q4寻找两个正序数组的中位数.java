@@ -69,6 +69,7 @@ public class Q4寻找两个正序数组的中位数{
 	}
 //leetcode submit region begin(Prohibit modification and deletion)
 // 方法二、第k个数
+// https://leetcode-cn.com/problems/median-of-two-sorted-arrays/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-w-2/
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
     	int n = nums1.length;
