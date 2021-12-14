@@ -57,8 +57,9 @@ public class Q3无重复字符的最长子串{
 		
 	}
 //leetcode submit region begin(Prohibit modification and deletion)
+// 方法二、滑动窗口使用map
+// https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/solution/hua-dong-chuang-kou-by-powcai/
 class Solution {
-	//方法二、滑动窗口使用map
     public int lengthOfLongestSubstring(String s) {
 		int res = 0;
 		int left = 0;
@@ -76,9 +77,8 @@ class Solution {
 }
 //leetcode submit region end(Prohibit modification and deletion)
 
-
+// 方法一、滑动窗口使用set
 class Solution1 {
-	// 方法一、滑动窗口使用set
 	public int lengthOfLongestSubstring(String s) {
 		int res = 0;
 		int right = -1;
