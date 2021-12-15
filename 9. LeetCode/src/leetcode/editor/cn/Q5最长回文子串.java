@@ -51,6 +51,8 @@ public class Q5最长回文子串{
 		
 	}
 //leetcode submit region begin(Prohibit modification and deletion)
+// 中心扩展
+// https://leetcode-cn.com/problems/longest-palindromic-substring/solution/zhong-xin-kuo-san-fa-he-dong-tai-gui-hua-by-reedfa/
 class Solution {
     public String longestPalindrome(String s) {
 		int strLen = s.length();
