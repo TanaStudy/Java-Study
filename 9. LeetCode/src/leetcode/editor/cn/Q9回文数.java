@@ -57,8 +57,8 @@ public class Q9回文数{
 		
 	}
 //leetcode submit region begin(Prohibit modification and deletion)
+// 方法二、双指针
 class Solution {
-	// 方法二、双指针
     public boolean isPalindrome(int x) {
     	if(x < 0){
     		return false;
@@ -78,9 +78,8 @@ class Solution {
 }
 //leetcode submit region end(Prohibit modification and deletion)
 
-
+// 方法一、反转整数
 class Solution1 {
-	// 方法一、反转整数
 	public boolean isPalindrome(int x) {
 		if(x < 0){
 			return false;
