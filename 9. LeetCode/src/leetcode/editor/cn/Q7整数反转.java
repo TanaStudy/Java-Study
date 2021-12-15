@@ -56,6 +56,7 @@ public class Q7整数反转{
 
 	}
 //leetcode submit region begin(Prohibit modification and deletion)
+// https://leetcode-cn.com/problems/reverse-integer/solution/zheng-shu-fan-zhuan-by-leetcode-solution-bccn/
 class Solution {
     public int reverse(int x) {
     	int res = 0;
