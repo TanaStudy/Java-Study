@@ -37,6 +37,7 @@ public class Q14最长公共前缀{
 		
 	}
 //leetcode submit region begin(Prohibit modification and deletion)
+// https://leetcode-cn.com/problems/longest-common-prefix/solution/hua-jie-suan-fa-14-zui-chang-gong-gong-qian-zhui-b/
 class Solution {
     public String longestCommonPrefix(String[] strs) {
     	String common = strs[0];
