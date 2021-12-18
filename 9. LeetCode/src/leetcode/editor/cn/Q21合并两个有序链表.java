@@ -63,7 +63,8 @@ public class Q21合并两个有序链表 {
  * }
  */
 
-// 方法二、迭代
+// 方法二、递归
+// https://leetcode-cn.com/problems/merge-two-sorted-lists/solution/yi-kan-jiu-hui-yi-xie-jiu-fei-xiang-jie-di-gui-by-/
 class Solution {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         if (list1 == null) {
