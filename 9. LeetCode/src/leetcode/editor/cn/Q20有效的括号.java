@@ -65,8 +65,10 @@ public class Q20有效的括号{
 		
 	}
 //leetcode submit region begin(Prohibit modification and deletion)
+// 方法二、使用map
+// https://leetcode-cn.com/problems/valid-parentheses/solution/you-xiao-de-gua-hao-by-leetcode-solution/
 class Solution {
-	// 方法二、使用map
+
     public boolean isValid(String s) {
 		int n = s.length();
 		if(n % 2 == 1){
@@ -93,9 +95,8 @@ class Solution {
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
-
+// 方法一、不使用map
 class Solution1	{
-	// 方法一、不使用map
 	public boolean isValid(String s) {
 		Stack<Character> stack = new Stack<>();
 		for(int i = 0; i < s.length();i++){
