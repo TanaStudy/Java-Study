@@ -52,6 +52,7 @@ public class Q34在排序数组中查找元素的第一个和最后一个位置{
 		
 	}
 //leetcode submit region begin(Prohibit modification and deletion)
+// https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/solution/zai-pai-xu-shu-zu-zhong-cha-zhao-yuan-su-de-di-3-4/
 class Solution {
     public int[] searchRange(int[] nums, int target) {
 		int l = search(nums,target);

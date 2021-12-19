@@ -61,6 +61,7 @@ public class Q35搜索插入位置{
 		
 	}
 //leetcode submit region begin(Prohibit modification and deletion)
+// https://leetcode-cn.com/problems/search-insert-position/solution/hua-jie-suan-fa-35-sou-suo-cha-ru-wei-zhi-by-guanp/
 class Solution {
     public int searchInsert(int[] nums, int target) {
     	int left = 0, right = nums.length-1;
