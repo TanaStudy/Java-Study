@@ -52,8 +52,8 @@ public class Q53最大子数组和{
 		
 	}
 //leetcode submit region begin(Prohibit modification and deletion)
-
 // 方法二、只记录dp[i-1]
+// https://leetcode-cn.com/problems/maximum-subarray/solution/dong-tai-gui-hua-fen-zhi-fa-python-dai-ma-java-dai/
 class Solution {
     public int maxSubArray(int[] nums) {
     	int ans = nums[0],pre = 0;
