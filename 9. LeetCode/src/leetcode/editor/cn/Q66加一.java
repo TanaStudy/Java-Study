@@ -47,6 +47,7 @@ public class Q66加一{
 		
 	}
 //leetcode submit region begin(Prohibit modification and deletion)
+// https://leetcode-cn.com/problems/plus-one/solution/java-shu-xue-jie-ti-by-yhhzw/
 class Solution {
     public int[] plusOne(int[] digits) {
 		for(int i = digits.length - 1; i >= 0; i--){
