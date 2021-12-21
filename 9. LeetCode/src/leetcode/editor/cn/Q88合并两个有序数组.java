@@ -69,6 +69,7 @@ public class Q88合并两个有序数组{
 		
 	}
 //leetcode submit region begin(Prohibit modification and deletion)
+// https://leetcode-cn.com/problems/merge-sorted-array/solution/he-bing-liang-ge-you-xu-shu-zu-by-leetco-rrb0/
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
 		int k = m + n - 1;
