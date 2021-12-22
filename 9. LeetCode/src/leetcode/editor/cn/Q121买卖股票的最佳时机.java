@@ -44,6 +44,7 @@ public class Q121买卖股票的最佳时机{
 	}
 //leetcode submit region begin(Prohibit modification and deletion)
 // 方法二、动态规划
+// https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/solution/bao-li-mei-ju-dong-tai-gui-hua-chai-fen-si-xiang-b/
 class Solution {
     public int maxProfit(int[] prices) {
     	int len = prices.length;
