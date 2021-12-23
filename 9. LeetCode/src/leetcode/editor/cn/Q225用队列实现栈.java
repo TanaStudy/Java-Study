@@ -69,6 +69,7 @@ public class Q225用队列实现栈{
 	}
 //leetcode submit region begin(Prohibit modification and deletion)
 // 方法二、一个队列实现栈
+// https://leetcode-cn.com/problems/implement-stack-using-queues/solution/yong-dui-lie-shi-xian-zhan-by-leetcode-solution/
 class MyStack {
     Queue<Integer> q;
     public MyStack() {
@@ -105,6 +106,7 @@ class MyStack {
 //leetcode submit region end(Prohibit modification and deletion)
 
 // 方法一、使用两个队列实现栈
+// https://leetcode-cn.com/problems/implement-stack-using-queues/solution/yong-dui-lie-shi-xian-zhan-by-leetcode-solution/
 class MyStack1 {
     Queue<Integer> s1;
     Queue<Integer> s2;
