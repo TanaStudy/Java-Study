@@ -60,8 +60,10 @@ public class Q206反转链表{
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+// 方法二、递归
+// https://leetcode-cn.com/problems/reverse-linked-list/solution/shi-pin-jiang-jie-die-dai-he-di-gui-hen-hswxy/
 class Solution {
-	// 方法二、递归
+
 	public ListNode reverseList(ListNode head) {
 		if(head == null || head.next == null){
 			return head;
