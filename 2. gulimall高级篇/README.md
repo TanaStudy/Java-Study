@@ -56,43 +56,6 @@
 ![](https://i.loli.net/2021/02/18/jfKRiLH4trSpwYe.png)
 
 
-### 后台管理系统
-
-#### 登录
-
-![](https://i.loli.net/2021/02/18/6KVEbFZMrgnUet3.png)
-
-#### 商品系统
-
-**分类管理**
-
-![](https://i.loli.net/2021/02/18/gsTcQRKDEWnUzIY.png)
-
-**品牌管理**
-
-![](https://i.loli.net/2021/02/18/FCKNfMTs9Pt3oVj.png)**平台属性**
-
-![ss](https://i.loli.net/2021/02/18/vCSnt1KjOyghB57.png)
-
-**商品管理**
-
-![](https://i.loli.net/2021/02/18/H6YkoCVOLQyfBN7.png)
-
-**发布商品**
-
-![](https://i.loli.net/2021/02/18/I1WtlCAb9hHUwky.png)
-
-#### 其他系统
-
-<div>
-     <img src="docs/images/Snipaste_2021-02-18_16-58-44.png" style="zoom:40%;" />
-    <img src="docs/images/Snipaste_2021-02-18_16-47-40.png" style="zoom:40%;" />
-    <img src="docs/images/Snipaste_2021-02-18_16-57-06.png" style="zoom:50%;" />
-    <img src="docs/images/Snipaste_2021-02-18_16-57-43.png" style="zoom:50%;" />
-    <img src="docs/images/Snipaste_2021-02-18_16-57-58.png" style="zoom:50%;" />
-</div>
-
-
 
 
 ## 组织结构
