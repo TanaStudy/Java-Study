@@ -22,8 +22,8 @@ public class Q283移动零{
 		
 	}
 //leetcode submit region begin(Prohibit modification and deletion)
-
 // 方法二、一次遍历
+// https://leetcode-cn.com/problems/move-zeroes/solution/dong-hua-yan-shi-283yi-dong-ling-by-wang_ni_ma/
 class Solution {
     public void moveZeroes(int[] nums) {
 		int j = 0;
