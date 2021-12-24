@@ -58,39 +58,7 @@
 
 
 
-### 前台商品系统
 
-#### 首页
-
-![](https://i.loli.net/2021/02/18/HPezsS6oYxJ5yRI.png)
-
-#### 商品检索
-
-![](https://i.loli.net/2021/02/18/ki2AWeMRIxKqlVm.png)
-
-#### 认证
-
-![](https://i.loli.net/2021/02/18/iO2cCXNGvLsptnh.png)
-
-<img src="https://i.loli.net/2021/02/18/OIt4FbsUwqV8gZL.png" style="zoom:38%;" />
-
-#### 商品详情
-
-![](https://i.loli.net/2021/02/18/B8qjpkwcT5Potzh.png)
-
-#### 购物车
-
-![](https://i.loli.net/2021/02/18/uEYqnQ2Kx7WZy1G.png)
-
-#### 结算页
-
-#### ![](https://i.loli.net/2021/02/18/T3mVbdpfqKsrNJC.png)支付
-
-![](https://i.loli.net/2021/02/18/SvP1oUVmrnx8cET.png)
-
-![](https://i.loli.net/2021/02/18/QqWzVtk1ZwvrURl.png)
-
-![](https://i.loli.net/2021/02/18/jfKRiLH4trSpwYe.png)
 
 
 
