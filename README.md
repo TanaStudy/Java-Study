@@ -59,8 +59,8 @@ Java学习过程中看的一些视频和代码笔记。
 
 # :eight: Demo
 
-// TODO
+Demo
 
 # :nine: LeetCode
 
-// LeetCode
+LeetCode
