@@ -76,9 +76,21 @@ public class Q12整数转罗马数字{
 		
 	}
 //leetcode submit region begin(Prohibit modification and deletion)
+// https://leetcode-cn.com/problems/integer-to-roman/solution/tan-xin-suan-fa-by-liweiwei1419/
 class Solution {
     public String intToRoman(int num) {
-
+		int[] nums = new int[]{1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};
+		String[] romans = new String[]{"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
+		int index = 0;
+		StringBuffer sb = new StringBuffer();
+		while (index < 13){
+			while (num >= nums[index]){
+				sb.append(romans[index]);
+				num = num - nums[index];
+			}
+			index++;
+		}
+		return sb.toString();
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
