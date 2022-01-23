@@ -61,7 +61,7 @@ class Solution {
 			return ans;
 		}
 		Arrays.sort(nums);
-		for(int i = 0; i < n; i++){
+		for(int i = 0; i <= n - 3; i++){
 			// 若 nums[i]>0nums[i]>0：因为已经排序好，所以后面不可能有三个数加和等于 00，直接返回结果。
 			if(nums[i] > 0){
 				break;
