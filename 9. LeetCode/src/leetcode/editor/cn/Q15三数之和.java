@@ -49,7 +49,9 @@ public class Q15三数之和{
 		System.out.println(solution.threeSum(nums));
 	}
 //leetcode submit region begin(Prohibit modification and deletion)
+// 思路参考：
 // https://leetcode-cn.com/problems/3sum/solution/pai-xu-shuang-zhi-zhen-zhu-xing-jie-shi-python3-by/
+// 代码参考：
 // https://leetcode-cn.com/problems/3sum/solution/hua-jie-suan-fa-15-san-shu-zhi-he-by-guanpengchn/
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
