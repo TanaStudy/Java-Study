@@ -14,7 +14,7 @@ public class 希尔排序 {
                 int preIndex = i - gap;
                 while (preIndex >= 0 && nums[preIndex] > cur){
                     nums[preIndex + gap] = nums[preIndex];
-                    preIndex--;
+                    preIndex = preIndex - gap;
                 }
                 nums[preIndex + gap] = cur;
             }

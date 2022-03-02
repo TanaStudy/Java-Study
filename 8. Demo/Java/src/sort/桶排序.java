@@ -28,6 +28,7 @@ public class 桶排序 {
             int num = (nums[i] - min) / len;
             bucket.get(num).add(nums[i]);
         }
+
         List<Integer> list = new ArrayList<>();
         for(int i = 0; i < bucket.size(); i++){
             Collections.sort(bucket.get(i));

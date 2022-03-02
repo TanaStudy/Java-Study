@@ -13,7 +13,6 @@ public class 冒泡排序 {
                     nums[j] = nums[j+1];
                     nums[j+1] = temp;
                 }
-                System.out.println(Arrays.toString(nums));
             }
         }
         return nums;
