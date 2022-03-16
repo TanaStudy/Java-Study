@@ -78,6 +78,7 @@ class Solution {
 //leetcode submit region end(Prohibit modification and deletion)
 
 // 方法一、滑动窗口使用set
+// https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/solution/wu-zhong-fu-zi-fu-de-zui-chang-zi-chuan-by-leetc-2/
 class Solution1 {
 	public int lengthOfLongestSubstring(String s) {
 		int res = 0;
