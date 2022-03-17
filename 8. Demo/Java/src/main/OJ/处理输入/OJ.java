@@ -3,7 +3,7 @@ package 处理输入;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class test {
+public class OJ {
     public static void main(String[] args) {
         Scanner cin = new Scanner(System.in);
         String line1 = cin.nextLine();
