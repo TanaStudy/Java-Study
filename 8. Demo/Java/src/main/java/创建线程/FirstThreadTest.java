@@ -1,4 +1,4 @@
-package Thread;
+package 创建线程;
 
 public class FirstThreadTest extends Thread{
     int i = 0;

@@ -1,4 +1,4 @@
-package Thread;
+package 死锁;
 
 public class DeadLock {
     private static Object resource1 = new Object();//资源 1

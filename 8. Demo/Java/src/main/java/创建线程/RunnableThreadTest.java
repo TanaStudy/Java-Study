@@ -1,4 +1,4 @@
-package Thread;
+package 创建线程;
 
 
 public class RunnableThreadTest implements Runnable{

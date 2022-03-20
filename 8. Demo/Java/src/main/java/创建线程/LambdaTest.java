@@ -1,4 +1,4 @@
-package Thread;
+package 创建线程;
 
 public class LambdaTest {
     public static void main(String[] args) {
