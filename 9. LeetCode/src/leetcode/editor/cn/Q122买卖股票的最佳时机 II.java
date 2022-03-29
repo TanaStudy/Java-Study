@@ -53,6 +53,8 @@ class Q122买卖股票的最佳时机II{
 		
 	}
 //leetcode submit region begin(Prohibit modification and deletion)
+// 动态规划
+// https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/solution/tan-xin-suan-fa-by-liweiwei1419-2/
 class Solution {
     public int maxProfit(int[] prices) {
 		int n = prices.length;
