@@ -55,6 +55,7 @@ package leetcode.editor.cn;
 // Related Topics 哈希表 链表 双指针 👍 1290 👎 0
 
 import java.awt.*;
+import java.util.HashSet;
 
 public class Q141环形链表{
 	public static void main(String[] args) {
@@ -73,24 +74,39 @@ public class Q141环形链表{
  *     }
  * }
  */
+// 方法二：hashset
 // https://leetcode-cn.com/problems/linked-list-cycle/solution/huan-xing-lian-biao-by-leetcode-solution/
 public class Solution {
     public boolean hasCycle(ListNode head) {
-    	if(head == null || head.next == null){
-    		return false;
-		}
-    	ListNode slow = head;
-    	ListNode fast = head.next;
-    	while (slow != fast){
-    		if(fast == null || fast.next == null){
-    			return false;
+    	HashSet<ListNode> set = new HashSet<ListNode>();
+    	while (head != null){
+    		if(!set.add(head)){
+    			return true;
 			}
-    		slow = slow.next;
-    		fast = fast.next.next;
+    		head = head.next;
 		}
-    	return true;
+    	return false;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
 
+// 方法一：快慢指针
+// https://leetcode-cn.com/problems/linked-list-cycle/solution/huan-xing-lian-biao-by-leetcode-solution/
+public class Solution1 {
+	public boolean hasCycle(ListNode head) {
+		if(head == null || head.next == null){
+			return false;
+		}
+		ListNode slow = head;
+		ListNode fast = head.next;
+		while (slow != fast){
+			if(fast == null || fast.next == null){
+				return false;
+			}
+			slow = slow.next;
+			fast = fast.next.next;
+		}
+		return true;
+	}
+}
 }
