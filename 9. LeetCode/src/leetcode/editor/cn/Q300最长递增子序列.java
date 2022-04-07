@@ -57,61 +57,60 @@ public class Q300最长递增子序列{
 		
 	}
 //leetcode submit region begin(Prohibit modification and deletion)
-// 方法二、贪心算法 + 二分
-// https://leetcode-cn.com/problems/longest-increasing-subsequence/solution/dong-tai-gui-hua-er-fen-cha-zhao-tan-xin-suan-fa-p/
-class Solution {
-    public int lengthOfLIS(int[] nums) {
-		int len = nums.length;
-		int[] tail = new int[len];
-
-		tail[0] = nums[0];
-		int end = 0;
-		for(int i = 1; i < len; i++){
-			if(nums[i] > tail[end]){
-				end++;
-				tail[end] = nums[i];
-			}else {
-				// 找到第 1 个大于等于 nums[i] 的元素
-				int left = 0;
-				int right = end;
-				while (left < right){
-					int mid = left + (right - left) / 2;
-					if(tail[mid] < nums[i]){
-						left = mid + 1;
-					}else {
-						right = mid;
-					}
-				}
-				tail[left] = nums[i];
-			}
-		}
-		end++;
-		return end;
-    }
-}
-//leetcode submit region end(Prohibit modification and deletion)
 // 方法一、动态规划
 // https://leetcode-cn.com/problems/longest-increasing-subsequence/solution/zui-chang-shang-sheng-zi-xu-lie-dong-tai-gui-hua-2/
 // dp[i] = Math.max(dp[i], dp[j] + 1)
-class Solution1 {
+class Solution {
 	public int lengthOfLIS(int[] nums) {
-		int len = nums.length;
-		int[] dp = new int[len];
+		if(nums.length == 0) {
+			return 0;
+		}
+		int[] dp = new int[nums.length];
 		int res = 0;
 		Arrays.fill(dp, 1);
-		for(int i = 0; i < len; i++){
-			for(int j = 0; j < i; j++){
-				if(nums[j] < nums[i]){
+		for(int i = 0; i < nums.length; i++) {
+			for(int j = 0; j < i; j++) {
+				if(nums[j] < nums[i]) {
 					dp[i] = Math.max(dp[i], dp[j] + 1);
 				}
 			}
-		}
-		for(int cur : dp){
-			res = Math.max(res, cur);
+			res = Math.max(res, dp[i]);
 		}
 		return res;
 
 	}
 }
+//leetcode submit region end(Prohibit modification and deletion)
+// 方法二、贪心算法 + 二分
+// https://leetcode-cn.com/problems/longest-increasing-subsequence/solution/dong-tai-gui-hua-er-fen-cha-zhao-tan-xin-suan-fa-p/
+	class Solution1 {
+		public int lengthOfLIS(int[] nums) {
+			int len = nums.length;
+			int[] tail = new int[len];
 
+			tail[0] = nums[0];
+			int end = 0;
+			for(int i = 1; i < len; i++){
+				if(nums[i] > tail[end]){
+					end++;
+					tail[end] = nums[i];
+				}else {
+					// 找到第 1 个大于等于 nums[i] 的元素
+					int left = 0;
+					int right = end;
+					while (left < right){
+						int mid = left + (right - left) / 2;
+						if(tail[mid] < nums[i]){
+							left = mid + 1;
+						}else {
+							right = mid;
+						}
+					}
+					tail[left] = nums[i];
+				}
+			}
+			end++;
+			return end;
+		}
+	}
 }

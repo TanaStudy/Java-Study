@@ -67,6 +67,7 @@ public class Q39组合总和{
 		
 	}
 //leetcode submit region begin(Prohibit modification and deletion)
+// 回溯
 // https://leetcode-cn.com/problems/combination-sum/solution/hui-su-suan-fa-jian-zhi-python-dai-ma-java-dai-m-2/
 class Solution {
 	List<List<Integer>> res = new ArrayList<>();
