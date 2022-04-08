@@ -44,6 +44,7 @@ public class Q198打家劫舍{
 		
 	}
 //leetcode submit region begin(Prohibit modification and deletion)
+// 动态规划
 // https://leetcode-cn.com/problems/house-robber/solution/da-jia-jie-she-by-leetcode-solution/
 class Solution {
     public int rob(int[] nums) {

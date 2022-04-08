@@ -43,6 +43,11 @@ package leetcode.editor.cn;
 // 
 // Related Topics 字符串 动态规划 👍 4378 👎 0
 
+import java.util.Collection;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
+
 public class Q5最长回文子串{
 	public static void main(String[] args) {
 		Solution solution = new Q5最长回文子串().new Solution();
@@ -51,10 +56,57 @@ public class Q5最长回文子串{
 		
 	}
 //leetcode submit region begin(Prohibit modification and deletion)
-// 中心扩展
-// https://leetcode-cn.com/problems/longest-palindromic-substring/solution/zhong-xin-kuo-san-fa-he-dong-tai-gui-hua-by-reedfa/
+// 方法二、动态规划
+// https://leetcode-cn.com/problems/longest-palindromic-substring/solution/zui-chang-hui-wen-zi-chuan-by-leetcode-solution/
 class Solution {
     public String longestPalindrome(String s) {
+		int len = s.length();
+		if(len < 2){
+			return s;
+		}
+
+		int maxLen = 1;
+		int begin = 0;
+
+		boolean[][] dp = new boolean[len][len];
+
+		for(int i = 0; i < len; i++){
+			dp[i][i] = true;
+		}
+
+		char[] charArray = s.toCharArray();
+
+		for(int L = 2; L <= len; L++){
+			for(int i = 0; i < len; i++){
+				int j = L + i - 1;
+				if(j >= len){
+					break;
+				}
+
+				if(charArray[i] != charArray[j]){
+					dp[i][j] = false;
+				}else {
+					if(j - i < 3){
+						dp[i][j] = true;
+					}else {
+						dp[i][j] = dp[i + 1][j - 1];
+					}
+				}
+
+				if(dp[i][j] && j - i + 1 > maxLen){
+					maxLen = j - i + 1;
+					begin = i;
+				}
+			}
+		}
+		return s.substring(begin, begin + maxLen);
+    }
+}
+//leetcode submit region end(Prohibit modification and deletion)
+// 方法一、中心扩展
+// https://leetcode-cn.com/problems/longest-palindromic-substring/solution/zhong-xin-kuo-san-fa-he-dong-tai-gui-hua-by-reedfa/
+class Solution1 {
+	public String longestPalindrome(String s) {
 		int strLen = s.length();
 		int maxLeft = 0, maxRight = 0, maxLen = 0;
 		for(int i = 0;i < strLen;i++){
@@ -79,8 +131,7 @@ class Solution {
 			}
 		}
 		return s.substring(maxLeft,maxRight+1);
-    }
+	}
 }
-//leetcode submit region end(Prohibit modification and deletion)
 
 }
