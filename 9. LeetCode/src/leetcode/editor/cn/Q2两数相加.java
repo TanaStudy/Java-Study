@@ -69,6 +69,8 @@ public class Q2两数相加{
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+// 模拟
+// https://leetcode-cn.com/problems/add-two-numbers/solution/liang-shu-xiang-jia-by-leetcode-solution/
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
     	ListNode head = new ListNode();

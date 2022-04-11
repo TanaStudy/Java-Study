@@ -61,6 +61,7 @@ class Solution {
 }
 //leetcode submit region end(Prohibit modification and deletion)
 // 方法一、使用额外数组dp
+// https://leetcode-cn.com/problems/minimum-path-sum/solution/zui-xiao-lu-jing-he-dong-tai-gui-hua-gui-fan-liu-c/
 class Solution1 {
 	public int minPathSum(int[][] grid) {
 		int[][] dp = new int[grid.length][grid[0].length];

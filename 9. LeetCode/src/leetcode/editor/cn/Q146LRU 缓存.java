@@ -116,6 +116,7 @@ class LRUCache {
             return size;
         }
     }
+
     public HashMap<Integer, Node> map;
     // public LinkedList<Node> cache;
     public DoubleList cache;
