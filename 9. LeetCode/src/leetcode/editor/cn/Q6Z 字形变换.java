@@ -66,6 +66,7 @@ class Q6Z字形变换{
 		
 	}
 //leetcode submit region begin(Prohibit modification and deletion)
+// 模拟
 // https://leetcode-cn.com/problems/zigzag-conversion/solution/zzi-xing-bian-huan-by-jyd/
 class Solution {
     public String convert(String s, int numRows) {
