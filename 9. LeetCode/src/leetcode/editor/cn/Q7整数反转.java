@@ -56,12 +56,13 @@ public class Q7整数反转{
 
 	}
 //leetcode submit region begin(Prohibit modification and deletion)
+// 记得特判res
 // https://leetcode-cn.com/problems/reverse-integer/solution/zheng-shu-fan-zhuan-by-leetcode-solution-bccn/
 class Solution {
     public int reverse(int x) {
     	int res = 0;
     	while (x != 0){
-			if(res > (Math.pow(2,31) - 1) / 10 || res < - Math.pow(2,31) / 10){
+			if(res < Integer.MIN_VALUE / 10 || res > Integer.MAX_VALUE / 10){
 				return 0;
 			}
 			int remainder = x % 10;
