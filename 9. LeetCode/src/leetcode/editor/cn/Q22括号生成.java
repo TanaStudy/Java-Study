@@ -36,6 +36,7 @@ public class Q22括号生成{
 		
 	}
 //leetcode submit region begin(Prohibit modification and deletion)
+// 回溯
 // https://leetcode-cn.com/problems/generate-parentheses/solution/hui-su-suan-fa-by-liweiwei1419/
 class Solution {
 	List<String> res = new ArrayList<>();
