@@ -72,6 +72,7 @@ class Solution {
 //leetcode submit region end(Prohibit modification and deletion)
 
 // 非递归
+// https://leetcode-cn.com/problems/swap-nodes-in-pairs/solution/hua-jie-suan-fa-24-liang-liang-jiao-huan-lian-biao/
 class Solution1 {
 	public ListNode swapPairs(ListNode head) {
 		ListNode dummy  = new ListNode();
