@@ -66,7 +66,7 @@ public class Q23合并K个升序链表{
  */
 // 方法三、优先级队列
 // https://leetcode-cn.com/problems/merge-k-sorted-lists/solution/he-bing-kge-sheng-xu-lian-biao-java-by-s-27q3/
-
+// 时间复杂度O(nlogk)
 class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
 		int len = lists.length;
