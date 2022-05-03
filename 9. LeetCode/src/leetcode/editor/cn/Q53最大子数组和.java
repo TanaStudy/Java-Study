@@ -68,6 +68,7 @@ class Solution {
 //leetcode submit region end(Prohibit modification and deletion)
 
 // 方法一、直接写dp数组
+// https://leetcode-cn.com/problems/maximum-subarray/solution/dong-tai-gui-hua-fen-zhi-fa-python-dai-ma-java-dai/
 class Solution1 {
 	public int maxSubArray(int[] nums) {
 		int len = nums.length;
