@@ -94,7 +94,7 @@ class Solution {
 		}
     	return true;
 	}
-	public List Array2List(char[][] chessBoard){
+	public List<String> Array2List(char[][] chessBoard){
     	List<String> list = new ArrayList<>();
 
     	for(char[] c : chessBoard){
