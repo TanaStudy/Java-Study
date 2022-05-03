@@ -46,6 +46,8 @@ public class Q58最后一个单词的长度{
 		
 	}
 //leetcode submit region begin(Prohibit modification and deletion)
+// 遍历
+// https://leetcode-cn.com/problems/length-of-last-word/solution/hua-jie-suan-fa-58-zui-hou-yi-ge-dan-ci-de-chang-d/
 class Solution {
     public int lengthOfLastWord(String s) {
 		int right = s.length() - 1;
