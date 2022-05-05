@@ -38,6 +38,7 @@ class Q69Sqrt{
 		
 	}
 //leetcode submit region begin(Prohibit modification and deletion)
+// 二分
 // https://leetcode-cn.com/problems/sqrtx/solution/x-de-ping-fang-gen-by-leetcode-solution/
 class Solution {
     public int mySqrt(int x) {
