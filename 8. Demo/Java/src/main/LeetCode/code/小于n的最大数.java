@@ -7,6 +7,7 @@ import java.util.Arrays;
  */
 public class 小于n的最大数 {
 
+    // 方法一、二分＋回溯
     // 23121   [2,4,9] ---- > 22999
     public static int findMax1(int target, int[] nums) {
         char[] str = String.valueOf(target).toCharArray();
@@ -78,6 +79,8 @@ public class 小于n的最大数 {
         }
         return l;
     }
+    // 方法二、贪心
+    // https://sutianxin.top/posts/2261888774.html#30%E3%80%81%E5%B0%8F%E4%BA%8E-n-%E7%9A%84%E6%9C%80%E5%A4%A7%E6%95%B0
     public static String minValue(int value, int[] nums) {
         Arrays.sort(nums);
         boolean flag = false;
