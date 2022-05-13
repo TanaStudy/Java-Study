@@ -42,7 +42,7 @@ public class Q74搜索二维矩阵{
 	}
 //leetcode submit region begin(Prohibit modification and deletion)
 // https://leetcode-cn.com/problems/search-a-2d-matrix/solution/sou-suo-er-wei-ju-zhen-by-leetcode-solut-vxui/
-// 二分法
+// 二分法，将二维展开成一维的二分
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
 		int m = matrix.length;
