@@ -43,26 +43,27 @@ public class Q78子集{
 		
 	}
 //leetcode submit region begin(Prohibit modification and deletion)
-// https://leetcode-cn.com/problems/subsets/solution/c-zong-jie-liao-hui-su-wen-ti-lei-xing-dai-ni-gao-/
+// 回溯
+// https://leetcode.cn/problems/subsets/solution/zi-ji-by-leetcode-solution/
 class Solution {
-	List<List<Integer>> res = new ArrayList<>();
+	List<List<Integer>> ans = new ArrayList<>();
+	List<Integer> t = new ArrayList<>();
     public List<List<Integer>> subsets(int[] nums) {
-		back(nums, new ArrayList<>(), 0);
-		return res;
+		dfs(0, nums);
+		return ans;
     }
-    public void back(int[] nums, List<Integer> path, int index){
-    	res.add(new ArrayList<>(path));
-		System.out.println("add后：" + res);
-    	for(int i = index; i < nums.length; i++){
-			System.out.println("i: " + i);
-    		path.add(nums[i]);
-    		back(nums, path, i + 1);
-    		path.remove(path.size() - 1);
-			System.out.println("remove后的path：" + path);
-
+	public void dfs(int cur, int[] nums){
+		if(cur == nums.length){
+			ans.add(new ArrayList<>(t));
+			return;
 		}
+		t.add(nums[cur]);
+		dfs(cur + 1, nums);
+		t.remove(t.size() - 1);
+		dfs(cur + 1, nums);
 	}
 }
 //leetcode submit region end(Prohibit modification and deletion)
+
 
 }
