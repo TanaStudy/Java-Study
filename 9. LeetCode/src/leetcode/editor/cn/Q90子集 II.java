@@ -39,7 +39,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Q90子集II{
+class Q90子集II{
 	public static void main(String[] arg) {
 		Solution solution = new Q90子集II().new Solution();
 		
