@@ -65,6 +65,8 @@ public class Q112路径总和{
  *     }
  * }
  */
+// 递归
+// 是否存在从当前节点的子节点到叶子的路径，满足其路径和为 sum - val。
 // https://leetcode-cn.com/problems/path-sum/solution/lu-jing-zong-he-by-leetcode-solution/
 class Solution {
     public boolean hasPathSum(TreeNode root, int targetSum) {

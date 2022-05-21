@@ -68,6 +68,7 @@ class Q113路径总和II{
  * }
  */
 // DFS
+// 枚举每一条从根节点到叶子节点的路径。当我们遍历到叶子节点，且此时路径和恰为目标和时，我们就找到了一条满足条件的路径。
 // https://leetcode-cn.com/problems/path-sum-ii/solution/lu-jing-zong-he-ii-by-leetcode-solution/
 class Solution {
 	List<List<Integer>> res = new LinkedList<>();
