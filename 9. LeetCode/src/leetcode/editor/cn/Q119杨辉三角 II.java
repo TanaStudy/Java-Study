@@ -53,9 +53,31 @@ class Q119杨辉三角II{
 		
 	}
 //leetcode submit region begin(Prohibit modification and deletion)
+// 方法二、空间复杂度优化成O(rowIndex)
+// 对第 i+1 行的计算仅用到了第 i 行的数据，使用滚动数组优化空间复杂度。
 // https://leetcode-cn.com/problems/pascals-triangle-ii/solution/yang-hui-san-jiao-ii-by-leetcode-solutio-shuk/
 class Solution {
     public List<Integer> getRow(int rowIndex) {
+		List<Integer> pre = new ArrayList<Integer>();
+		for(int i = 0; i <= rowIndex; i++){
+			List<Integer> cur = new ArrayList<Integer>();
+			for(int j = 0; j <= i; j++){
+				if(j == 0 ||j == i){
+					cur.add(1);
+				}else {
+					cur.add(pre.get(j - 1) + pre.get(j));
+				}
+			}
+			pre = cur;
+		}
+		return pre;
+    }
+}
+//leetcode submit region end(Prohibit modification and deletion)
+// 方法一、暴力
+// https://leetcode-cn.com/problems/pascals-triangle-ii/solution/yang-hui-san-jiao-ii-by-leetcode-solutio-shuk/
+class Solution1 {
+	public List<Integer> getRow(int rowIndex) {
 		List<List<Integer>> ans = new ArrayList<>();
 		for(int i = 0; i <= rowIndex; i++){
 			List<Integer> row = new ArrayList<>();
@@ -69,8 +91,7 @@ class Solution {
 			ans.add(row);
 		}
 		return ans.get(rowIndex);
-    }
+	}
 }
-//leetcode submit region end(Prohibit modification and deletion)
 
 }
