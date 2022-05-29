@@ -53,6 +53,8 @@ public class Q139单词拆分{
 		
 	}
 //leetcode submit region begin(Prohibit modification and deletion)
+// 动态规划
+// https://leetcode.cn/problems/word-break/solution/dan-ci-chai-fen-by-leetcode-solution/
 class Solution {
     public boolean wordBreak(String s, List<String> wordDict) {
 		Set<String> wordDictSet = new HashSet<>(wordDict);
