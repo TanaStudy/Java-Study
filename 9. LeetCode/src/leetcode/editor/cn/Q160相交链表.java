@@ -102,6 +102,8 @@ public class Q160相交链表{
  *     }
  * }
  */
+// A走完走B，B走完走A
+// https://leetcode.cn/problems/intersection-of-two-linked-lists/solution/intersection-of-two-linked-lists-shuang-zhi-zhen-l/
 public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         ListNode l1 = headA;

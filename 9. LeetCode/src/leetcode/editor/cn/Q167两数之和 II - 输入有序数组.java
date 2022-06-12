@@ -49,6 +49,8 @@ class Q167两数之和II输入有序数组{
 		
 	}
 //leetcode submit region begin(Prohibit modification and deletion)
+// 双指针
+// https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/solution/yi-zhang-tu-gao-su-ni-on-de-shuang-zhi-zhen-jie-fa/
 class Solution {
     public int[] twoSum(int[] numbers, int target) {
     	int left = 0, right = numbers.length - 1;
