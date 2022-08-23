@@ -16,7 +16,7 @@ package leetcode.editor.cn;
 
 import java.util.List;
 
-public class Q剑指Offer25合并两个排序的链表{
+class Q剑指Offer25合并两个排序的链表{
 	public static void main(String[] args) {
 		Solution solution = new Q剑指Offer25合并两个排序的链表().new Solution();
 		
